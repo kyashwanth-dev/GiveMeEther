@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-usb-share v0.1 (prototype)
+GiveMeEther v0.1 (prototype)
 Share a PC's internet (e.g. Ethernet-only) with an Android phone over USB.
 
 Uses only the Python standard library. On first run it downloads:
   - Google platform-tools (adb)
   - Gnirehtet (Apache-2.0, by Genymobile) relay + Android APK
-into ~/.usb-share. Nothing is installed system-wide, no admin rights needed.
+into ~/.GiveMeEther. Nothing is installed system-wide, no admin rights needed.
 
-Usage:  python usb_share.py
+Usage:  python givemeether.py
 Stop:   Ctrl+C
 """
 import io
