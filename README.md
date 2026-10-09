@@ -22,7 +22,7 @@
 
 1. **Phone:** enable USB debugging
    *Settings → About phone → tap Build number 7 times → Developer options → USB debugging*
-2. **PC:** run the app (or just double-click [GiveMeEther.exe](https://github.com/kyashwanth-dev/GiveMeEther/releases/latest/download/GiveMeEther.exe), see below)
+2. **PC:** run the app (or just double-click [GiveMeEther.exe](https://github.com/kyashwanth-dev/GiveMeEther/releases/tag/v2.0.1), see below)
    ```
    python givemeether.py
    ```
@@ -35,7 +35,7 @@ On first run, `adb` (Google platform-tools) and Gnirehtet are downloaded to `~/.
 
 No Python needed on the target PC.
 
-- **Download:** grab [`GiveMeEther.exe`](https://github.com/kyashwanth-dev/GiveMeEther/releases/latest/download/GiveMeEther.exe) from the Releases page, double-click it, plug in your phone.
+- **Download:** grab [`GiveMeEther.exe`](https://github.com/kyashwanth-dev/GiveMeEther/releases/tag/v2.0.1) from the Releases page, double-click it, plug in your phone.
 - **Build it yourself:** on Windows with Python 3.8+ (with Tkinter), in the project folder run:
   ```
   python -m pip install pyinstaller
